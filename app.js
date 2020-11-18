@@ -1,10 +1,8 @@
 const express = require("express");
-const bodyParser = require("body-parser");
 const request = "request";
-const https = require("https");
-const { response } = require("express");
 const app = express();
 
+app.use();
 app.set("view engine", "ejs");
 // Use CSS and IMG elements in public folder
 app.use(express.static("Public"));
