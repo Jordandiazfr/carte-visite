@@ -17,6 +17,58 @@
     transform: translateX(0);
   }
 }
+/* Media querys for responsive desing */
+
+@media (min-width: 300px) {
+  body {
+    font-size: 0.75rem;
+  }
+  .mainbox {
+    margin-top: 10rem;
+    display: block;
+    position: absolute;
+    max-width: 80%;
+  }
+  .texto {
+    display: inherit;
+    position: relative;
+    text-align: center;
+    padding: 1rem 1rem 0 1rem;
+  }
+  :root {
+    --h2: 1.8rem;
+    --h3: 1rem;
+    --h4: 0.8rem;
+  }
+}
+@media (min-width: 600px) {
+  body {
+    font-size: 0.75rem;
+  }
+  :root {
+    --h2: 2rem;
+    --h3: 1.2rem;
+    --h4: 1rem;
+  }
+  .mainbox {
+    margin-top: 10rem;
+    display: block;
+    position: absolute;
+    max-width: 80%;
+  }
+}
+@media (min-width: 800px) {
+  body {
+    font-size: 0.8rem;
+  }
+  .mainbox {
+    margin-top: 0;
+    display: block;
+    position: absolute;
+    max-width: 80%;
+  }
+}
+/* Normal Css styling */
 
 html,
 body {
@@ -29,7 +81,7 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
   font-family: "Noto Sans JP", sans-serif;
 }
-
+/* The main section */
 #main {
   display: inline-flex;
   width: 100%;
@@ -44,7 +96,6 @@ body {
   display: flexbox;
   align-items: center;
   justify-content: flex-start;
-  /* 30475e */
   background-color: #30475e;
   border-radius: 10px;
   max-width: 80%;
@@ -93,7 +144,7 @@ body {
   padding-top: 0.25rem;
 }
 
-/* SOCIAL ICONS */
+/* SOCIAL  Links */
 .social {
   color: #e8e8e8;
   text-align: center;
@@ -112,16 +163,6 @@ a {
   color: inherit;
   text-decoration: none;
   padding: 0;
-}
-
-.footer {
-  background-color: #222831;
-  color: #e8e8e8;
-  width: 100%;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }
 
 hr {
@@ -165,61 +206,17 @@ h4 {
   color: #292d3b;
   padding: 1rem 0 0 0;
 }
-
-.footer p {
+/* The footer */
+#footer {
+  background-color: #222831;
+  color: #e8e8e8;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+#footer p {
   font-family: "Roboto Mono", monospace;
   color: #e8e8e8;
-}
-
-/* Media querys for responsive desing */
-
-@media (min-width: 300px) {
-  body {
-    font-size: 0.75rem;
-  }
-  .mainbox {
-    margin-top: 10rem;
-    display: block;
-    position: absolute;
-    max-width: 80%;
-  }
-  .texto {
-    display: inherit;
-    position: relative;
-    text-align: center;
-    padding: 1rem 1rem 0 1rem;
-  }
-  :root {
-    --h2: 1.8rem;
-    --h3: 1rem;
-    --h4: 0.8rem;
-  }
-}
-@media (min-width: 600px) {
-  body {
-    font-size: 0.75rem;
-  }
-  :root {
-    --h2: 2rem;
-    --h3: 1.2rem;
-    --h4: 1rem;
-  }
-
-  .mainbox {
-    margin-top: 10rem;
-    display: block;
-    position: absolute;
-    max-width: 80%;
-  }
-}
-@media (min-width: 800px) {
-  body {
-    font-size: 0.8rem;
-  }
-  .mainbox {
-    margin-top: 0;
-    display: block;
-    position: absolute;
-    max-width: 80%;
-  }
 }
