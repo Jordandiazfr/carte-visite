@@ -178,7 +178,7 @@ h4 {
     font-size: 0.75rem;
   }
   .mainbox {
-    margin-top: 10rem;
+    margin-top: 4rem;
     display: block;
     position: absolute;
     max-width: 80%;
@@ -205,7 +205,7 @@ h4 {
     --h4: 1rem;
   }
   .mainbox {
-    margin-top: 5rem;
+    margin-top: 4rem;
     display: block;
     position: absolute;
     max-width: 80%;
